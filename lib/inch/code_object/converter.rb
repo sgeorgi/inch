@@ -16,6 +16,8 @@ module Inch
         parent_fullname
 
         api_tag?
+        aliased_object_fullname
+        aliases_fullnames
         attributes
         bang_name?
         constant?
@@ -23,7 +25,6 @@ module Inch
         depth
         docstring
         getter?
-        has_alias?
         has_children?
         has_code_example?
         has_doc?
